@@ -1,0 +1,17 @@
+---
+title: "Plantas"
+output: html_document
+date: "2023-08-24"
+---
+
+
+#Primera tarea con rmarkdown
+bajar datos de plantas de [aquí]("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-08-18/plants.csv")
+```{r}
+url <- "https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-08-18/plants.csv"
+```
+
+plants <- read_csv(url)
+plants |>
+red_list:category="Extinct"
+
