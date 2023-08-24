@@ -4,7 +4,9 @@ output: html_document
 date: "2023-08-24"
 ---
 
-install.packages("")
+library(readr)
+library(tidydata)
+library(dplyr)
 #Primera tarea con rmarkdown
 bajar datos de plantas de [aquí]("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-08-18/plants.csv")
 ```{r}
